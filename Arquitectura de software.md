@@ -49,6 +49,9 @@
 
 -   Estilos arquitectónicos (Monolítico, Microservicios, Event-Driven, etc.)
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
+
+test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjExMTE5NDVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ
+==
 -->
