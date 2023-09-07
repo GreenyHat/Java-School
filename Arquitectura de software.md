@@ -90,10 +90,10 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 - **MVC (Modelo vista controlador):**
-
+![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM3MzExMSwxMTA4NzUzNTk5LC01OD
-Y2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0
-MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC
-0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNT
+g2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYw
+NDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0My
+wtMTU2MTExMTk0NV19
 -->
