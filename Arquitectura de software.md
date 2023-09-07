@@ -77,6 +77,7 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 ![Monolitico vs Microservicios](https://www.ilimit.com/wp-content/uploads/2020/09/Monolith-vs-Microservices.png)
 
 ###  Estilos arquitectónicos (Monolítico, Microservicios, Event-Driven, etc.)
+
 Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Por ejemplo:
 
 - **Monolitico:** Es recomendable para proyectos de bajos requerimientos, donde el bajo coste o la previsión de un equipo pequeño sea lo decisivo. Es decir, que tiene que haber el menor numero de clases y módulos posible, así como que todas las funcionalidades esten en un mismo programa, a ser posible.
@@ -85,16 +86,13 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	-   El **costo de desarrollo es bajo** en comparación con otras arquitecturas.
 - **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
 - **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del software. Por ejemplo, dos aplicaciones: ventas e inventario, interactuan ante la petición de compra para cambiar el estado de un producto de _"A la venta"_ a _"Vendido"_
-
-
- 
-
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODc1MzU5OSwtNTg2NjA5Mjk2LC0xOD
-QxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIw
-MjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV
-19
+eyJoaXN0b3J5IjpbLTM5NzExOTk2NSwxMTA4NzUzNTk5LC01OD
+Y2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0
+MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC
+0xNTYxMTExOTQ1XX0=
 -->
