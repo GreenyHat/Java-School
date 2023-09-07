@@ -84,7 +84,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	-   El **despliegue y la ejecución** del software son muy sencillos.
 	-   El **costo de desarrollo es bajo** en comparación con otras arquitecturas.
 - **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
-- **Event-Driven:** Es una arquitectura 
+- **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del 
 
  
 
@@ -92,8 +92,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzczNjEwNCwtNTg2NjA5Mjk2LC0xOD
-QxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIw
-MjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV
-19
+eyJoaXN0b3J5IjpbLTE0MjAxNzk3NzEsLTU4NjYwOTI5NiwtMT
+g0MTI4NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMjEsLTU3MjYy
+MDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1NjExMTE5ND
+VdfQ==
 -->
