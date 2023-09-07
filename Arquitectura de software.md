@@ -76,11 +76,13 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 
 ![Monolitico vs Microservicios](https://www.ilimit.com/wp-content/uploads/2020/09/Monolith-vs-Microservices.png)
 
--   Estilos arquitectónicos (Monolítico, Microservicios, Event-Driven, etc.)
+###  Estilos arquitectónicos (Monolítico, Microservicios, Event-Driven, etc.)
+Los diferentes estilos arquitec
+	
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC01Nz
-I2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYxMTEx
-OTQ1XX0=
+eyJoaXN0b3J5IjpbLTE5NDEzMDQyMCwtNDk4NjQwNzkyLC03Mz
+Q2MDQzMjEsLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3
+NDMsLTE1NjExMTE5NDVdfQ==
 -->
