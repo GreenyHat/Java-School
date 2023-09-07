@@ -3,8 +3,7 @@
 
 ---
 
-<p>&lt;![endif]–&gt;</p>
-<p><strong>Índice:</strong></p>
+<h1 id="índice">Índice:</h1>
 <ol>
 <li><strong>Introducción al Testing</strong></li>
 </ol>
