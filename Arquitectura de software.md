@@ -42,11 +42,12 @@
 -   Integración continua y entrega continua (CI/CD)
 
 
+## Relación con acceso a datos:
 
 
 
 
-## 2. Estilos y Patrones de Arquitectura
+## 2. Estilos y Patrones de Arquitectura:
 
 ![Monolitico vs Microservicios](https://www.ilimit.com/wp-content/uploads/2020/09/Monolith-vs-Microservices.png)
 
@@ -54,6 +55,6 @@
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyNDc5Nzk3LDc0ODU5Mjg2OSwtMTI0Mz
+eyJoaXN0b3J5IjpbNzk5MjY3ODk0LDc0ODU5Mjg2OSwtMTI0Mz
 g3MTc0MywtMTU2MTExMTk0NV19
 -->
