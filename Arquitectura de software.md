@@ -79,7 +79,7 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 ###  Estilos arquitectónicos (Monolítico, Microservicios, Event-Driven, etc.)
 Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Por ejemplo:
 
-- **Monolitico:** Es recomendable para proyectos de bajos requerimientos, donde el bajo coste o la previsión de un equipo pequeño sea lo decisivo.
+- **Monolitico:** Es recomendable para proyectos de bajos requerimientos, donde el bajo coste o la previsión de un equipo pequeño sea lo decisivo. Es decir 
 	-  Los programas son **fáciles de desarrollar**.
 	-   El **despliegue y la ejecución** del software son muy sencillos.
 	-   El **costo de desarrollo es bajo** en comparación con otras arquitecturas.
@@ -91,7 +91,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNz
-M0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcx
-NzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTQwOTMwMDgxLC0xODQxMjg1MTE0LC00OT
+g2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2
+OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
 -->
