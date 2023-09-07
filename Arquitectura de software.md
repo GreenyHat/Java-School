@@ -55,6 +55,8 @@ La asignatura "acceso a datos" en el módulo de Desarrollo de Aplicaciones Multi
 
 En resumen, mientras aprendes sobre acceso a datos, se van adquiriendo habilidades y conocimientos que son directamente relevantes y aplicables a la arquitectura de software. Es recomendable buscar siempre cómo se relaciona lo que aprendes con los principios y prácticas arquitectónicas más amplias.
 
+_En cuanto al punto **2** cabe destacar:_
+
 
 
 ## 2. Estilos y Patrones de Arquitectura:
@@ -65,6 +67,6 @@ En resumen, mientras aprendes sobre acceso a datos, se van adquiriendo habilidad
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc0ODQ3MzAsNzQ4NTkyODY5LC0xMj
-QzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbMTI2NjgzNzU1MCw3NDg1OTI4NjksLTEyND
+M4NzE3NDMsLTE1NjExMTE5NDVdfQ==
 -->
