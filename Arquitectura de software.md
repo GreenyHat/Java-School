@@ -61,7 +61,7 @@ En muchas aplicaciones modernas y contextos específicos, especialmente en el de
 
 1.  **Historia y Legado**: Aunque JSON y YAML se han vuelto más populares en ciertos ámbitos, muchas aplicaciones y sistemas más antiguos aún utilizan XML. Por lo tanto, tener un conocimiento profundo de XML es esencial si alguna vez trabajas con sistemas legados o en industrias donde XML sigue siendo el estándar.
 2.  **Flexibilidad y Especificidad**: XML tiene características que no se encuentran en JSON o YAML, como atributos y [espacios de nombres](https://es.wikipedia.org/wiki/Espacio_de_nombres_XML). Además, XML tiene toda una familia de tecnologías asociadas (como XSLT, XPath y XML Schema) que permiten operaciones complejas y validación detallada.
-3.  **Industrias Específicas**: Hay industrias y estándares que todavía se basan en XML. Por ejemplo, en el mundo de los servicios web, SOAP (que utiliza XML) todavía es relevante en ciertos contextos empresariales. Otros estándares, como HL7 en el sector de la salud, también usan XML.
+3.  **Industrias Específicas**: Hay industrias y estándares que todavía se basan en XML. Por ejemplo, en el mundo de los servicios web, [SOAP](https://polaridad.es/soap-que-es-y-como-funciona-el-protocolo-de-acceso-a-objetos-simples/) (que utiliza XML) todavía es relevante en ciertos contextos empresariales. Otros estándares, como HL7 en el sector de la salud, también usan XML.
 4.  **Configuración y Desarrollo**: En el mundo de Java, muchas herramientas y frameworks, como Spring, han utilizado tradicionalmente archivos XML para configuración. Aunque estas herramientas han ido adoptando otros formatos (como anotaciones y propiedades), el conocimiento de XML sigue siendo útil.
 5.  **Formato Auto-descriptivo**: A diferencia de JSON y YAML, XML es un formato auto-descriptivo. Esto significa que puede transportar tanto datos como metadatos (a través de atributos, espacios de nombres, etc.), lo que puede ser beneficioso en ciertos contextos.
 
@@ -80,6 +80,7 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0OD
-U5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
+eyJoaXN0b3J5IjpbLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC01Nz
+I2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYxMTEx
+OTQ1XX0=
 -->
