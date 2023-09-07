@@ -53,7 +53,7 @@ La asignatura "acceso a datos" en el módulo de Desarrollo de Aplicaciones Multi
 5.  **Rendimiento y Optimización**: Acceder a datos de manera eficiente puede ser un desafío. Las decisiones arquitectónicas que tomes pueden tener un impacto significativo en el rendimiento de un sistema. Por lo tanto, aprender sobre indexación, consultas optimizadas y caché, por ejemplo, te proporcionará herramientas valiosas cuando diseñes arquitecturas.
 6.  **Seguridad**: Cuando se trata de acceso a datos, la seguridad es primordial. Es esencial comprender cómo proteger los datos, cómo gestionar los accesos y cómo garantizar la integridad de la información. Estos conceptos también son vitales desde una perspectiva arquitectónica.
 
-En resumen, mientras aprendes sobre acceso a datos, estarás adquiriendo habilidades y conocimientos que son directamente relevantes y aplicables a la arquitectura de software. Te recomiendo que aproveches al máximo esa asignatura y busques siempre cómo se relaciona lo que aprendes con los principios y prácticas arquitectónicas más amplias.
+En resumen, mientras aprendes sobre acceso a datos, se van adquiriendo habilidades y conocimientos que son directamente relevantes y aplicables a la arquitectura de software. Es recomendable buscar siempre cómo se relaciona lo que aprendes con los principios y prácticas arquitectónicas más amplias.
 
 
 
@@ -65,6 +65,6 @@ En resumen, mientras aprendes sobre acceso a datos, estarás adquiriendo habilid
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTkwNzgwNyw3NDg1OTI4NjksLTEyND
-M4NzE3NDMsLTE1NjExMTE5NDVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDc0ODQ3MzAsNzQ4NTkyODY5LC0xMj
+QzODcxNzQzLC0xNTYxMTExOTQ1XX0=
 -->
