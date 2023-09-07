@@ -57,7 +57,7 @@ En resumen, mientras aprendes sobre acceso a datos, se van adquiriendo habilidad
 
 ### _En cuanto al punto 2 cabe destacar:_
 
-en muchas aplicaciones modernas y contextos específicos, especialmente en el desarrollo web y en configuraciones, JSON y YAML se han vuelto más populares que XML. Sin embargo, hay algunas consideraciones a tener en cuenta:
+En muchas aplicaciones modernas y contextos específicos, especialmente en el desarrollo web y en configuraciones, JSON y YAML se han vuelto más populares que XML. Sin embargo, hay algunas consideraciones a tener en cuenta:
 
 1.  **Historia y Legado**: Aunque JSON y YAML se han vuelto más populares en ciertos ámbitos, muchas aplicaciones y sistemas más antiguos aún utilizan XML. Por lo tanto, tener un conocimiento profundo de XML es esencial si alguna vez trabajas con sistemas legados o en industrias donde XML sigue siendo el estándar.
 2.  **Flexibilidad y Especificidad**: XML tiene características que no se encuentran en JSON o YAML, como atributos y espacios de nombres. Además, XML tiene toda una familia de tecnologías asociadas (como XSLT, XPath y XML Schema) que permiten operaciones complejas y validación detallada.
@@ -80,6 +80,6 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 -   Patrones comunes (MVC, MVVM, N-capas, etc.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcwNzY4NDksNzQ4NTkyODY5LC0xMj
-QzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyND
+M4NzE3NDMsLTE1NjExMTE5NDVdfQ==
 -->
