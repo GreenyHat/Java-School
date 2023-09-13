@@ -85,10 +85,47 @@ Un ejemplo: Supongamos que yo quiero hacer sumas, pero mi programa debe sumar po
 </li>
 </ol>
 <ul>
-<li><strong>Sobreescriura</strong>: Se da cuando en un método heredado se está <em>sobreescribiendo</em> la lógica. ==Puede no hacerse en todo el método ==</li>
+<li><strong>Sobreescriura</strong>: Se da cuando en un método heredado se está <em>sobreescribiendo</em> la lógica. <mark>El resto de la clase se puede mantener sin sobreescribir</mark>, por ejemplo:</li>
 </ul>
 </li>
 </ul>
+<blockquote>
+<p>// Definimos la clase padre class ClasePadre {<br>
+public String metodo1() {<br>
+return “Método 1 de ClasePadre”;<br>
+}</p>
+<pre><code>public String metodo2() {
+    return "Método 2 de ClasePadre";
+} }
+</code></pre>
+<p>// Definimos la clase hija que hereda de la clase padre class<br>
+ClaseHija extends ClasePadre {</p>
+<pre><code>// Sobreescribimos el metodo1 de la ClasePadre
+@Override
+public String metodo1() {
+    return "Método 1 de ClaseHija";
+} }
+</code></pre>
+<p>// Clase principal para probar el comportamiento public class Main {<br>
+public static void main(String[] args) {<br>
+ClaseHija obj = new ClaseHija();</p>
+<pre><code>    // Llamamos a los métodos
+    System.out.println(obj.metodo1());  // Salida: Método 1 de ClaseHija
+    System.out.println(obj.metodo2());  // Salida: Método 2 de ClasePadre
+} }
+</code></pre>
+</blockquote>
+<p>Ahora, si queremos utilizar el método original de la clase padre dentro del método sobrescrito en la clase hija  <code>super()</code>, lo hacemos de la siguiente manera:</p>
+<blockquote>
+<p>class ClaseHija extends ClasePadre {</p>
+<pre><code>// Sobreescribimos el metodo1 de la ClasePadre
+@Override
+public String metodo1() {
+    String original = super.metodo1();
+    return original + " pero modificado por ClaseHija";
+} }
+</code></pre>
+</blockquote>
 <ol start="4">
 <li><strong>Polimorfismo</strong></li>
 </ol>
