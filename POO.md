@@ -16,16 +16,78 @@
 </ol>
 <ul>
 <li>Clases y Objetos.</li>
-<li>Atributos y Métodos.</li>
-<li>Encapsulación y el principio de ocultamiento.</li>
+</ul>
+<blockquote>
+<p>Las <strong>clases</strong> son abstracciones que usamos para convertir elementos que queremos que formen parte de nuestro programa dl cual encapsulamos mediante dos conceptos: <em>atributos</em> y <em>métodos</em>. Habría que añadir los <em>eventos</em> a este fin, ya que serían los triggers que desencadenarían paquetes de código mediante la interacción del usuario con una interfaz grafica, por ejemplo.</p>
+<p>Los <strong>objetos</strong>, por otro lado, son la materialización de dicha clase en el codigo, lo que tambien se conoce como instsancia. La clase sería algo así como el concepto, la idea de lo que queremos hacer, concebida al detalle, mientras que el objeto es la materialización de la dea la cual podremos usar.</p>
+</blockquote>
+<ul>
+<li>
+<p>Atributos y Métodos.</p>
+<ul>
+<li>
+<p><strong>Atributos</strong>: Son los datos que contendrá la clase (nombre, contraseña, contador…)</p>
+</li>
+<li>
+<p><strong>Métodos</strong>: Son las funcionalidades con las que contara la clase las cuales podrá usar el propio objeto u otros objetos que hereden de dicha clase. Pueden tener opcionalmente parámetros de entrada o parámetros de salida. Si el método retorna un valor se le suele llamar <strong>función</strong> si no <strong>procedimiento</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Encapsulación y el principio de ocultamiento.<br>
+La encapsulación es el principio mediante el cual en el código se ocultan distintas secciones que <strong>no necesitan</strong> conocer o modificar elementos fuera de dicha clase. Esto ofrece dos ventajas:</p>
+<ul>
+<li>
+<p>Lo que hace el <strong>usuario</strong> puede ser controlado internamente (incluido los errores)</p>
+</li>
+<li>
+<p>Al mantener la mayor parte del codigo oculto, se pueden modificar o mejorar el codigo sin que afecte al modo en el que los usuarios acceden a dicho codigo</p>
+</li>
+</ul>
+</li>
 </ul>
 <ol start="3">
 <li><strong>Herencia</strong></li>
 </ol>
 <ul>
 <li>Concepto y beneficios.</li>
-<li>Clases base y clases derivadas.</li>
-<li>Sobrescritura y sobre carga de métodos.</li>
+</ul>
+<blockquote>
+<p>La herencia es la capacidad que tiene una clase de heredar los atributos y métodos de otra. Lo cual favorece a reutilización de código</p>
+</blockquote>
+<ul>
+<li>
+<p>Clases base y clases derivadas.</p>
+<ul>
+<li><strong>Clase base</strong>: La clase base es un tipo específico de clase de la cual podrán heredar las distintas clases derivadas, normalmente atienden a dos objetivos:
+<ul>
+<li>Diversos tipos tienen algo en común, por ejemplo en el juego del ajedrez, donde todas las piezas forman parte del juego y compartirían desplazamientos en los mismos ejes</li>
+<li>Se precisa ampliar la funcionalidad de un programa sin tener que modificar el código existente. Un alfil se mueve de una manera distinta al peón pero comparten dichos estructuras de movimiento.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Clase derivada</strong>: La clase derivada es aquella que hereda de una clase base con el fin de reutilizar código para ampliar funcionalidades, testear…</p>
+</li>
+<li>
+<p>Sobrescritura y sobrecarga de métodos.</p>
+<ul>
+<li><strong>Sobrecarga</strong>:  La sobrecarga de métodos, permite usar el mismo nombre del método pero solo si se tiene diferente firma. Cuando hablamos de la firma de un método, nos referimos a sus parámetros…<br>
+Un ejemplo: Supongamos que yo quiero hacer sumas, pero mi programa debe sumar por una parte 2 números enteros o 2 números doubles… para esto tengo 2 opciones:</li>
+</ul>
+<ol>
+<li>
+<p>crear 2 métodos, uno llamado sumaEnteros(int a, int b) y otro sumaDoubles(double a, double b)</p>
+</li>
+<li>
+<p>Aplicar el concepto de sobrecarga, donde aunque también vamos a crear 2 metodos, los vamos a llamar con el mismo nombre pero con diferentes parametros…sumar(int a, int b) y sumar(double a, double b)</p>
+</li>
+</ol>
+<ul>
+<li><strong>Sobreescriura</strong>: Se da cuando en un método heredado se está <em>sobreescribiendo</em> la lógica. ==Puede no hacerse en todo el método ==</li>
+</ul>
+</li>
 </ul>
 <ol start="4">
 <li><strong>Polimorfismo</strong></li>
@@ -76,21 +138,13 @@
 <li>“Design Patterns: Elements of Reusable Object-Oriented Software” de Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides: Es un libro clásico sobre patrones de diseño en POO.</li>
 </ul>
 <ol start="2">
-<li><strong>Cursos en línea</strong>:</li>
-</ol>
-<ul>
-<li><strong>Udemy</strong>: Hay varios cursos dedicados a la POO, adecuados para diferentes lenguajes de programación.</li>
-<li><strong>Coursera</strong>: “Object-Oriented Design” es un buen curso que ofrece una introducción sólida a la POO y al diseño orientado a objetos.</li>
-<li><strong>Pluralsight</strong>: Ofrece múltiples cursos sobre POO, principios SOLID y patrones de diseño.</li>
-</ul>
-<ol start="3">
 <li><strong>Sitios web y tutoriales</strong>:</li>
 </ol>
 <ul>
 <li><strong>Java Brains (YouTube)</strong>: Koushik Kothagal ofrece tutoriales sobre Java que cubren en profundidad los conceptos de POO.</li>
 <li><strong>Mozilla Developer Network (MDN)</strong>: Si estás interesado en JavaScript, tienen una sección dedicada a la “Programación orientada a objetos en JavaScript”.</li>
 </ul>
-<ol start="4">
+<ol start="3">
 <li><strong>Ejercicios y práctica</strong>:</li>
 </ol>
 <ul>
