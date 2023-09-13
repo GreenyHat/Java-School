@@ -90,7 +90,7 @@ Un ejemplo: Supongamos que yo quiero hacer sumas, pero mi programa debe sumar po
 </li>
 </ul>
 <blockquote>
-<p>// Definimos la clase padre class ClasePadre {<br>
+<p>``// Definimos la clase padre class ClasePadre {<br>
 public String metodo1() {<br>
 return “Método 1 de ClasePadre”;<br>
 }</p>
@@ -123,7 +123,7 @@ ClaseHija obj = new ClaseHija();</p>
 public String metodo1() {
     String original = super.metodo1();
     return original + " pero modificado por ClaseHija";
-} }
+} }``
 </code></pre>
 </blockquote>
 <ol start="4">
