@@ -41,7 +41,9 @@
 -   Herramientas de modelado y diseño
 -   Integración continua y entrega continua (CI/CD)
 
-8. 
+8. Tipos de aplicación:
+- App web estáticas:
+da
 
 
 ## Relación con acceso a datos:
@@ -94,7 +96,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTY2NTM0NiwtMjAyMDg0NjUxOCwxMT
+eyJoaXN0b3J5IjpbMTA3NTAxOTkwMSwtMjAyMDg0NjUxOCwxMT
 A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
 MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
 0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
