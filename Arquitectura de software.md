@@ -43,8 +43,8 @@
 
 8. Tipos de aplicación:
 - **App web estáticas**: Presentan información a los visitantes **sin** permitir que interactúen con el contenido más allá de su lectura.
-	- **Ejemplos**: blogs personales, portfolios, 
-	- **Teconologías**: 
+	- **Ejemplos**: Blogs personales, portfolios...
+	- **Teconologías**: HTML, CSS
 
 
 ## Relación con acceso a datos:
@@ -97,8 +97,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMTkxMTAwLC0yMDIwODQ2NTE4LDExMD
-g3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4NTExNCwtNDk4NjQw
-NzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MSw3NDg1OTI4NjksLT
-EyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
+eyJoaXN0b3J5IjpbLTQyMjQzNjM5OCwtMjAyMDg0NjUxOCwxMT
+A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
+MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
+0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
 -->
