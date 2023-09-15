@@ -41,6 +41,8 @@
 -   Herramientas de modelado y diseño
 -   Integración continua y entrega continua (CI/CD)
 
+8. 
+
 
 ## Relación con acceso a datos:
 
@@ -92,8 +94,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNT
-g2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYw
-NDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0My
-wtMTU2MTExMTk0NV19
+eyJoaXN0b3J5IjpbMTcxOTY2NTM0NiwtMjAyMDg0NjUxOCwxMT
+A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
+MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
+0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
 -->
