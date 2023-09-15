@@ -42,8 +42,8 @@
 -   Integración continua y entrega continua (CI/CD)
 
 8. Tipos de aplicación:
-- App web estáticas:
-da
+- App web estáticas: Presentan información a los visitantes **sin** permitir que interactúen con el contenido más allá de su lectura.
+	- Ej: blogs personales, portfolios, 
 
 
 ## Relación con acceso a datos:
@@ -96,8 +96,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTAxOTkwMSwtMjAyMDg0NjUxOCwxMT
-A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
-MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
-0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTE3MTM5MDQzODQsLTIwMjA4NDY1MTgsMT
+EwODc1MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2
+NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OS
+wtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
 -->
