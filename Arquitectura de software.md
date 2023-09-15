@@ -41,11 +41,11 @@
 -   Herramientas de modelado y diseño
 -   Integración continua y entrega continua (CI/CD)
 
-8. **Tipos de aplicación**:
+8. **Tipos de aplicación web**:
 - **App web estáticas**: Presentan información a los visitantes **sin** permitir que interactúen con el contenido más allá de su lectura.
 	- **Ejemplos**: Blogs personales, portfolios...
 	- **Teconologías**: HTML, CSS
--  App web dinámicas: 
+-  App web dinámicas: son las apps wen  n un proceso constante de actualización que hace que haya diferentes contenidos cada vez que se visitan.
 
 
 ## Relación con acceso a datos:
@@ -98,8 +98,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjA0OTU4NSwtMjAyMDg0NjUxOCwxMT
-A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
-MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
-0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTcyNjAwOTc0LC0yMDIwODQ2NTE4LDExMD
+g3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4NTExNCwtNDk4NjQw
+NzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MSw3NDg1OTI4NjksLT
+EyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
 -->
