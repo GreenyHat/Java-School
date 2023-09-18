@@ -80,7 +80,7 @@ En resumen, aunque XML puede parecer menos "moderno" en comparación con JSON o 
 
 Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Por ejemplo:
 
-- **Monolitico:** Es recomendable para proyectos de bajos requerimientos, donde el bajo coste o la previsión de un equipo pequeño sea lo decisivo. Es decir, que tiene que haber el menor numero de clases y módulos posible, así como que todas las funcionalidades esten en un mismo programa, a ser posible.
+ **Monolitico:** Es recomendable para proyectos de bajos requerimientos, donde el bajo coste o la previsión de un equipo pequeño sea lo decisivo. Es decir, que tiene que haber el menor numero de clases y módulos posible, así como que todas las funcionalidades esten en un mismo programa, a ser posible.
 	-  Los programas son **fáciles de desarrollar**.
 	-   El **despliegue y la ejecución** del software son muy sencillos.
 	-   El **costo de desarrollo es bajo** en comparación con otras arquitecturas.
@@ -101,8 +101,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   La escalabilidad puede ser un problema.
 -   Difícil de adaptar a nuevas tecnologías debido a la fuerte interdependencia.
 
-<
-- **Arquitectura basada en capas (Layered Architecture):** 
+
+ **Arquitectura basada en capas (Layered Architecture):** 
 
 **Características**:
 
@@ -120,9 +120,9 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   La comunicación entre capas puede añadir latencia.
 -   Cambios en una capa pueden afectar a las demás. 
 
-<
 
-- **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
+
+ **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
 
 **Características**:
 
@@ -141,9 +141,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Requiere un seguimiento, monitoreo y herramientas de despliegue más sofisticadas.
 -   La consistencia de datos puede ser un desafío.
 
-<
-
-- **Arquitectura orientada a servicios (SOA):**
+ **Arquitectura orientada a servicios (SOA):**
 
 **Características**:
 
@@ -182,7 +180,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
--  **MVC (Modelo vista controlador):**
+  **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
@@ -215,10 +213,8 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 
 
-
-  
-  - **MVVM (Model-View-ViewModel)**:
-
+**MVVM (Model-View-ViewModel)**:
+ 
 **Características**:
 
 -   Específicamente diseñado para aplicaciones con interfaces ricas, como las desarrolladas con WPF, Xamarin o herramientas frontend como Angular:
@@ -237,9 +233,9 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 -   Puede ser más complejo que MVC para aplicaciones sencillas.
 -   La curva de aprendizaje puede ser más pronunciada, especialmente para aquellos que no están familiarizados con el enlace de datos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzYwMzg3MiwtMTY4OTgzNTg5NSwtND
-M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
-Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
-wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
-MTExMTk0NV19
+eyJoaXN0b3J5IjpbMzA3MDQwMDI4LC0xNjg5ODM1ODk1LC00Mz
+c5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUzNTk5LC01ODY2MDky
+OTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC
+01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYx
+MTExOTQ1XX0=
 -->
