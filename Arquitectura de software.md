@@ -191,11 +191,27 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 ![enter image description here](https://www.campusmvp.es/recursos/image.axd?picture=/2019/4T/interaccion-m-v-c.png)
 
+**Características**:
 
+-   Divide la aplicación en tres componentes interconectados:
+    -   **Model**: Representa la lógica de negocio y los datos.
+    -   **View**: Representa la interfaz de usuario y la presentación.
+    -   **Controller**: Actúa como intermediario entre Model y View, gestionando la entrada del usuario y actualizando la vista correspondientemente.
+
+**Ventajas**:
+
+-   Separación clara de responsabilidades, lo que facilita la mantenibilidad y la escalabilidad.
+-   Fomenta el desarrollo paralelo. Por ejemplo, mientras un desarrollador trabaja en la vista, otro puede trabajar en la lógica del modelo.
+-   Reusabilidad del código.
+
+**Inconvenientes**:
+
+-   Puede volverse complejo si no se gestiona adecuadamente.
+-   Para aplicaciones pequeñas, puede parecer una sobrecarga.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc1MTM5ODUsLTE2ODk4MzU4OTUsLT
-QzNzkyMDc5LC0yMDIwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYw
-OTI5NiwtMTg0MTI4NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMj
-EsLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1
-NjExMTE5NDVdfQ==
+eyJoaXN0b3J5IjpbLTc0ODA2MDM4OSwtMTY4OTgzNTg5NSwtND
+M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
+Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
+wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
+MTExMTk0NV19
 -->
