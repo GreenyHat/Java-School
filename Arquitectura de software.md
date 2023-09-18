@@ -158,6 +158,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Mayor latencia debido a la comunicación entre servicios.
 -   Puede volverse complejo a medida que crece el número de servicios.
 
+<
 
 - **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del software. Por ejemplo, dos aplicaciones: ventas e inventario, interactuan ante la petición de compra para cambiar el estado de un producto de _"A la venta"_ a _"Vendido"_
 
@@ -178,7 +179,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
-- # **MVC (Modelo vista controlador):**
+-  **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
@@ -210,7 +211,10 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 -   Para aplicaciones pequeñas, puede parecer una sobrecarga.
 
 
-- ### **MVVM (Model-View-ViewModel)**:
+
+
+  
+  - **MVVM (Model-View-ViewModel)**:
 
 **Características**:
 
@@ -230,9 +234,9 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 -   Puede ser más complejo que MVC para aplicaciones sencillas.
 -   La curva de aprendizaje puede ser más pronunciada, especialmente para aquellos que no están familiarizados con el enlace de datos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA4NDQ4MzIsLTE2ODk4MzU4OTUsLT
-QzNzkyMDc5LC0yMDIwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYw
-OTI5NiwtMTg0MTI4NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMj
-EsLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1
-NjExMTE5NDVdfQ==
+eyJoaXN0b3J5IjpbMzA3Njk0NzUyLC0xNjg5ODM1ODk1LC00Mz
+c5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUzNTk5LC01ODY2MDky
+OTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC
+01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYx
+MTExOTQ1XX0=
 -->
