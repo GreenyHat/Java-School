@@ -94,10 +94,10 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
 
-- Capa **M**odelo: encontramos los datos de dominio, 
+- Capa **M**odelo: encontramos los datos de dominio, los cuales almacenarán los datos 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzAyNTQ1MiwtMjAyMDg0NjUxOCwxMT
-A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
-MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
-0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTQzNzkyMDc5LC0yMDIwODQ2NTE4LDExMD
+g3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4NTExNCwtNDk4NjQw
+NzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MSw3NDg1OTI4NjksLT
+EyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
 -->
