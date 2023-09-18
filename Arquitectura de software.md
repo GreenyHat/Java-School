@@ -100,10 +100,13 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 - Capa **C**ontrolador: La funcion principal de esta capa es actuar de intermediaria entre el usuario y el sistema. Otras tareas que realiza es de transformacion de datos, para hacer que V y M se entiendan. Por lo que se podria decir que el Controlador es el coordinador general del sistema
 
+![enter image description here](https://www.campusmvp.es/recursos/image.axd?picture=/2019/4T/interaccion-m-v-c.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Njc4NDk5MiwtNDM3OTIwNzksLTIwMj
-A4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1
-MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLD
-c0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
+eyJoaXN0b3J5IjpbLTE2ODk4MzU4OTUsLTQzNzkyMDc5LC0yMD
+IwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4
+NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MS
+w3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
+
 -->
