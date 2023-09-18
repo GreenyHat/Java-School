@@ -101,6 +101,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   La escalabilidad puede ser un problema.
 -   Difícil de adaptar a nuevas tecnologías debido a la fuerte interdependencia.
 
+<
 - **Arquitectura basada en capas (Layered Architecture):** 
 
 **Características**:
@@ -119,6 +120,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   La comunicación entre capas puede añadir latencia.
 -   Cambios en una capa pueden afectar a las demás. 
 
+<
 
 - **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
 
@@ -139,6 +141,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Requiere un seguimiento, monitoreo y herramientas de despliegue más sofisticadas.
 -   La consistencia de datos puede ser un desafío.
 
+<
 
 - **Arquitectura orientada a servicios (SOA):**
 
@@ -234,9 +237,9 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 -   Puede ser más complejo que MVC para aplicaciones sencillas.
 -   La curva de aprendizaje puede ser más pronunciada, especialmente para aquellos que no están familiarizados con el enlace de datos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3Njk0NzUyLC0xNjg5ODM1ODk1LC00Mz
-c5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUzNTk5LC01ODY2MDky
-OTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC
-01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYx
-MTExOTQ1XX0=
+eyJoaXN0b3J5IjpbMTMwMzYwMzg3MiwtMTY4OTgzNTg5NSwtND
+M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
+Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
+wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
+MTExMTk0NV19
 -->
