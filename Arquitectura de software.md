@@ -255,14 +255,40 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 ## 3.  **Documentación de Arquitectura**
 
 ###  Vistas de arquitectura
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/f/f2/4+1_Architectural_View_Model.jpg)
+Cuando hablamos de "vistas de arquitectura" en el contexto de documentar la arquitectura de software, nos referimos a diferentes representaciones o perspectivas de la arquitectura que atienden a diferentes preocupaciones o intereses de los stakeholders. Estas vistas son esenciales para comprender, comunicar y documentar la arquitectura de un sistema.
 
+El concepto de vistas de arquitectura fue popularizado por el trabajo de Philippe Kruchten, conocido como "El Modelo de 4+1 Vistas". Según este modelo, hay varias vistas principales:
+
+1.  **Vista Lógica**:
+    
+    -   **Preocupación**: Funcionalidad del sistema.
+    -   **Descripción**: Muestra cómo se espera que el sistema se comporte en términos de funcionalidad. Se enfoca en los elementos funcionales, sus responsabilidades, relaciones y la colaboración entre ellos. A menudo utiliza diagramas de clases o de paquetes.
+2.  **Vista de Implementación**:
+    
+    -   **Preocupación**: Organización del código fuente.
+    -   **Descripción**: Detalla cómo se organiza el sistema en términos de componentes de software, archivos fuente, bibliotecas, etc. Utiliza diagramas de componentes y diagramas de despliegue.
+3.  **Vista de Procesos**:
+    
+    -   **Preocupación**: Rendimiento, escalabilidad y concurrencia.
+    -   **Descripción**: Trata aspectos relacionados con la concurrencia, distribución, integradores, y cómo las tareas se dividen y coordinan. Diagramas de secuencia y diagramas de actividades suelen ser comunes aquí.
+4.  **Vista Física** (o de Despliegue):
+    
+    -   **Preocupación**: Cómo el sistema se despliega en el hardware.
+    -   **Descripción**: Describe la infraestructura y cómo los componentes del software se asignan a nodos de hardware. Utiliza diagramas de despliegue.
+5.  **Vista de Casos de Uso (o escenarios)**:
+    
+    -   **Preocupación**: Validar la arquitectura desde un punto de vista de usuario o stakeholder.
+    -   **Descripción**: Esta no es exactamente una vista en sí, sino más bien una serie de escenarios o casos de uso que validan y demuestran cómo se espera que el sistema funcione en la vida real.
+
+Las vistas de arquitectura proporcionan una forma estructurada de representar y comunicar la arquitectura de software. Al diseñar un sistema, es posible que no todas las vistas sean relevantes o necesarias; la elección de qué vistas incluir debe basarse en las preocupaciones específicas del proyecto y los stakeholders involucrados.
 
 
 ###   Lenguajes de descripción de arquitectura (ADLs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTYyMjg1MiwxMzg0NTA0NjQ3LC0xNj
-g5ODM1ODk1LC00Mzc5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUz
-NTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5Mi
-wtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQz
-ODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTE2OTgxOTg2MTYsMTgwOTYyMjg1MiwxMz
+g0NTA0NjQ3LC0xNjg5ODM1ODk1LC00Mzc5MjA3OSwtMjAyMDg0
+NjUxOCwxMTA4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMT
+QsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4
+NTkyODY5LC0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
 -->
