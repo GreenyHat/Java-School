@@ -96,10 +96,13 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 - Capa **M**odelo: encontramos los datos de dominio, los cuales almacenarán la inforación. Alli se establece la logica de negocio de la app. Si la app consume servicios prestados por otros sistemas (sistema distribuido) tambien encontrará en esta  capa los DTO (data transfer objects), tambien llamadas clases de transferencia de datos. Por ejemplo, si estamos desarrollando una aplicación de facturación, en el modelo existirán las clases  `Factura`,  `Cliente`  o  `Proveedor`, entre otras.
 
-- Capa **V**ista: 
+- Capa **V**ista: Son los componentes encargados de generar la interfaz. Por ejemplo, si un usuario está consultando una factura a través de una aplicación web, la Vista se encargará de representar visualmente el estado actual de la misma en forma de página visualizable en su navegado
+
+- Capa **C**ontrolador: La funcion principa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzE3MzExMSwtNDM3OTIwNzksLTIwMj
-A4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1
-MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLD
-c0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
+eyJoaXN0b3J5IjpbLTEyMjczMjE0NTIsLTQzNzkyMDc5LC0yMD
+IwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4
+NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MS
+w3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
+
 -->
