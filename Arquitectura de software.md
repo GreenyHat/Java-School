@@ -254,12 +254,15 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 ## 3.  **Documentación de Arquitectura**
 
--   Vistas de arquitectura
--   Lenguajes de descripción de arquitectura (ADLs)
+###  Vistas de arquitectura
+
+
+
+###   Lenguajes de descripción de arquitectura (ADLs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgzOTIwMzAsMTM4NDUwNDY0NywtMT
-Y4OTgzNTg5NSwtNDM3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1
-MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OT
-IsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0
-Mzg3MTc0MywtMTU2MTExMTk0NV19
+eyJoaXN0b3J5IjpbMTgwOTYyMjg1MiwxMzg0NTA0NjQ3LC0xNj
+g5ODM1ODk1LC00Mzc5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUz
+NTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5Mi
+wtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQz
+ODcxNzQzLC0xNTYxMTExOTQ1XX0=
 -->
