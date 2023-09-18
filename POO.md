@@ -34,7 +34,7 @@
 </ul>
 </li>
 <li>
-<p>Encapsulación y el principio de ocultamiento.<br>
+<p><strong>Encapsulación</strong> y el principio de ocultamiento.<br>
 La encapsulación es el principio mediante el cual en el código se ocultan distintas secciones que <strong>no necesitan</strong> conocer o modificar elementos fuera de dicha clase. Esto ofrece dos ventajas:</p>
 <ul>
 <li>
@@ -159,15 +159,13 @@ El polimorfismo es la capacidad de una entidad (como una variable o función) de
 <li>La decisión sobre qué versión del método llamar se toma en tiempo de compilación.</li>
 </ul>
 <p><strong>Ejemplo</strong>:</p>
-<pre><code>javaCopy code
-
-`public int sumar(int a, int b) {
+<pre><code>public int sumar(int a, int b) {
     return a + b;
 }
 
 public double sumar(double a, double b) {
     return a + b;
-}` 
+}
 </code></pre>
 <p><strong>Ventajas</strong>:</p>
 <ul>
@@ -188,9 +186,7 @@ public double sumar(double a, double b) {
 <li>En muchos lenguajes, como Java, la anotación <code>@Override</code> se utiliza para indicar que un método está siendo sobreescrito.</li>
 </ul>
 <p><strong>Ejemplo</strong>:</p>
-<pre><code>javaCopy code
-
-`class Animal {
+<pre><code>class Animal {
     void sonido() {
         System.out.println("El animal hace un sonido");
     }
@@ -201,7 +197,7 @@ class Perro extends Animal {
     void sonido() {
         System.out.println("El perro ladra");
     }
-}` 
+} 
 </code></pre>
 <p><strong>Ventajas</strong>:</p>
 <ul>
@@ -212,21 +208,162 @@ class Perro extends Animal {
 <ul>
 <li>Si no se utiliza adecuadamente, puede llevar a comportamientos no deseados en la clase derivada.</li>
 </ul>
-<ol start="7">
+<ol start="5">
 <li><strong>Abstracción</strong></li>
 </ol>
+<p>La abstracción es uno de los cuatro pilares fundamentales de la Programación Orientada a Objetos (junto con la encapsulación, la herencia y el polimorfismo). Permite a los programadores ocultar los detalles complejos y mostrar solo la información esencial, facilitando el manejo de conceptos complejos al representarlos a un alto nivel.</p>
+<hr>
+<h4 id="clases-abstractas-y-métodos-abstractos"><strong>Clases Abstractas y Métodos Abstractos</strong>:</h4>
+<p><strong>Clases Abstractas</strong>:</p>
 <ul>
-<li>Clases abstractas y métodos abstractos.</li>
-<li>Diferencia entre interfaces y clases abstractas.</li>
+<li>Una clase abstracta es una que no puede ser instanciada directamente. Su propósito principal es ser extendida (heredada) por otras clases.</li>
+<li>Puede tener variables de instancia, métodos (que tienen cuerpo) y métodos abstractos (sin cuerpo).</li>
 </ul>
+<p><strong>Métodos Abstractos</strong>:</p>
+<ul>
+<li>Son métodos declarados en una clase abstracta sin implementación. No tienen cuerpo.</li>
+<li>Las clases que heredan una clase abstracta deben proporcionar una implementación concreta de todos los métodos abstractos, a menos que ellas mismas sean también clases abstractas.</li>
+</ul>
+<p><strong>Ejemplo</strong>:</p>
+<pre><code>abstract class Animal {
+    abstract void sonido();
+}
+
+class Perro extends Animal {
+    @Override
+    void sonido() {
+        System.out.println("El perro ladra");
+    }
+}
+</code></pre>
+<h4 id="diferencia-entre-interfaces-y-clases-abstractas"><strong>Diferencia entre Interfaces y Clases Abstractas</strong>:</h4>
+<p><strong>Interfaces</strong>:</p>
+<ul>
+<li>Es una estructura completamente abstracta que puede incluir métodos abstractos y constantes, pero no implementaciones concretas ni variables de instancia.</li>
+<li>Permite la “herencia múltiple”, es decir, una clase puede implementar múltiples interfaces.</li>
+</ul>
+<p><strong>Clases Abstractas</strong>:</p>
+<ul>
+<li>Pueden tener tanto métodos concretos (con cuerpo) como abstractos (sin cuerpo).</li>
+<li>Pueden tener variables de instancia.</li>
+<li>Una clase puede extender solo una clase abstracta, siguiendo el principio de “herencia simple” en la mayoría de los lenguajes de programación orientados a objetos.</li>
+</ul>
+<p><strong>Comparativa</strong>:</p>
+<ul>
+<li>
+<p><strong>Propósito</strong>: Las clases abstractas suelen ser una base para clases con características y comportamientos similares. Las interfaces se utilizan para definir contratos que otras clases deben implementar, independientemente de su jerarquía en la herencia.</p>
+</li>
+<li>
+<p><strong>Flexibilidad</strong>: Las interfaces son más flexibles ya que una clase puede implementar múltiples interfaces, mientras que solo puede heredar de una única clase abstracta.</p>
+</li>
+<li>
+<p><strong>Estado</strong>: Las clases abstractas pueden mantener el estado a través de variables de instancia. Las interfaces no pueden.</p>
+</li>
+</ul>
+<p><strong>Ejemplo</strong>:</p>
+<pre><code>interface Corredor {
+    void correr();
+}
+
+abstract class Animal {
+    abstract void sonido();
+}
+
+class Perro extends Animal implements Corredor {
+    @Override
+    void sonido() {
+        System.out.println("El perro ladra");
+    }
+
+    @Override
+    public void correr() {
+        System.out.println("El perro corre");
+    }
+}
+</code></pre>
 <ol start="6">
+<li><strong>Encapsulación</strong></li>
+</ol>
+<p><strong>Definición</strong>: La encapsulación se refiere al proceso de ocultar detalles internos o complejos de un objeto, exponiendo solo lo que es necesario o seguro. En otras palabras, es una técnica que envuelve el código y los datos juntos como una única unidad, protegiendo el estado del objeto de accesos no autorizados y modificaciones.</p>
+<hr>
+<h4 id="propósito"><strong>Propósito</strong>:</h4>
+<ol>
+<li>
+<p><strong>Proteger la Integridad de los Datos</strong>: Mediante la encapsulación, podemos asegurarnos de que el estado interno de un objeto no sea alterado inapropiadamente.</p>
+</li>
+<li>
+<p><strong>Flexibilidad y Mantenibilidad</strong>: Al ocultar los detalles internos, es más fácil hacer cambios en la implementación de una clase sin afectar a las partes del código que la utilizan.</p>
+</li>
+<li>
+<p><strong>Aumentar la Modularidad</strong>: La encapsulación fomenta la modularidad al mantener el comportamiento y el estado del objeto en un solo lugar.</p>
+</li>
+</ol>
+<hr>
+<h4 id="cómo-se-implementa"><strong>Cómo se Implementa</strong>:</h4>
+<ol>
+<li>
+<p><strong>Variables/Miembros Privados</strong>: Los atributos (o variables de instancia) de una clase se hacen privados para que no puedan ser accesibles o modificables directamente desde fuera de la clase.</p>
+</li>
+<li>
+<p><strong>Métodos Públicos Accesores y Mutadores (Getters y Setters)</strong>: Para acceder o modificar los atributos privados, se proporcionan métodos públicos. Los métodos “getters” (obtener) permiten leer valores de atributos, y los métodos “setters” (establecer) permiten cambiarlos. Estos métodos actúan como una puerta controlada al estado interno del objeto.</p>
+</li>
+</ol>
+<p><strong>Ejemplo</strong>:</p>
+<pre><code>public class Persona {
+    private String nombre; // Atributo privado
+    private int edad;      // Atributo privado
+
+    // Constructor
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // Método "getter" para el nombre
+    public String getNombre() {
+        return nombre;
+    }
+
+    // Método "setter" para el nombre
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    // Método "getter" para la edad
+    public int getEdad() {
+        return edad;
+    }
+
+    // Método "setter" para la edad
+    public void setEdad(int edad) {
+        if (edad &gt; 0) { // Validación simple
+            this.edad = edad;
+        }
+    }
+}
+</code></pre>
+<hr>
+<h4 id="beneficios"><strong>Beneficios</strong>:</h4>
+<ol>
+<li>
+<p><strong>Control</strong>: La encapsulación brinda un control completo sobre los datos de un objeto, permitiendo validaciones o transformaciones cuando se accede o modifica.</p>
+</li>
+<li>
+<p><strong>Reducción de Errores</strong>: Al restringir el acceso directo, se evita que otras partes del código modifiquen el estado del objeto de maneras inesperadas o erróneas.</p>
+</li>
+<li>
+<p><strong>Simplicidad para el Usuario</strong>: Los usuarios o desarrolladores que utilicen la clase no necesitan conocer o preocuparse por los detalles internos de implementación.</p>
+</li>
+</ol>
+<hr>
+<ol start="7">
 <li><strong>Composición y Agregación</strong></li>
 </ol>
 <ul>
 <li>Relaciones entre clases.</li>
 <li>Cuándo usar herencia vs. composición.</li>
 </ul>
-<ol start="7">
+<ol start="8">
 <li>
 <p><strong>Principios SOLID</strong></p>
 <ul>
