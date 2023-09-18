@@ -98,9 +98,9 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 - Capa **V**ista: Son los componentes encargados de generar la interfaz. Por ejemplo, si un usuario está consultando una factura a través de una aplicación web, la Vista se encargará de representar visualmente el estado actual de la misma en forma de página visualizable en su navegado
 
-- Capa **C**ontrolador: La funcion principa
+- Capa **C**ontrolador: La funcion principal de esta capa es actuar de intermediaria entre el usuario y el sistema.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjczMjE0NTIsLTQzNzkyMDc5LC0yMD
+eyJoaXN0b3J5IjpbLTIwOTc1NjQwNDUsLTQzNzkyMDc5LC0yMD
 IwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYwOTI5NiwtMTg0MTI4
 NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMjEsLTU3MjYyMDI0MS
 w3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1NjExMTE5NDVdfQ==
