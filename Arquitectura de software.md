@@ -92,9 +92,11 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 - **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
-Es un patron
+Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
+
+- Capa **M**odelo: encontramos los datos de dominio, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTU5NjYzNywtMjAyMDg0NjUxOCwxMT
+eyJoaXN0b3J5IjpbLTQ4MzAyNTQ1MiwtMjAyMDg0NjUxOCwxMT
 A4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMTQsLTQ5ODY0
 MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4NTkyODY5LC
 0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
