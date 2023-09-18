@@ -87,53 +87,132 @@ Un ejemplo: Supongamos que yo quiero hacer sumas, pero mi programa debe sumar po
 <ul>
 <li><strong>Sobreescriura</strong>: Se da cuando en un método heredado se está <em>sobreescribiendo</em> la lógica. <mark>El resto de la clase se puede mantener sin sobreescribir</mark>, por ejemplo:</li>
 </ul>
-</li>
-</ul>
-<blockquote>
 <p>// Definimos la clase padre class ClasePadre {<br>
 public String metodo1() {<br>
 return “Método 1 de ClasePadre”;<br>
 }</p>
-<pre><code>public String metodo2() {
-    return "Método 2 de ClasePadre";
-} }
+<pre><code> public String metodo2() {
+     return "Método 2 de ClasePadre";
+ } }
 </code></pre>
 <p>// Definimos la clase hija que hereda de la clase padre class<br>
 ClaseHija extends ClasePadre {</p>
-<pre><code>// Sobreescribimos el metodo1 de la ClasePadre
-@Override
-public String metodo1() {
-    return "Método 1 de ClaseHija";
-} }
+<pre><code> // Sobreescribimos el metodo1 de la ClasePadre
+ @Override
+ public String metodo1() {
+     return "Método 1 de ClaseHija";
+ } }
 </code></pre>
 <p>// Clase principal para probar el comportamiento public class Main {<br>
 public static void main(String[] args) {<br>
 ClaseHija obj = new ClaseHija();</p>
-<pre><code>    // Llamamos a los métodos
-    System.out.println(obj.metodo1());  // Salida: Método 1 de ClaseHija
-    System.out.println(obj.metodo2());  // Salida: Método 2 de ClasePadre
-} }
+<pre><code>     // Llamamos a los métodos
+     System.out.println(obj.metodo1());  // Salida: Método 1 de ClaseHija
+     System.out.println(obj.metodo2());  // Salida: Método 2 de ClasePadre
+ } }
 </code></pre>
-</blockquote>
+</li>
+</ul>
 <p>Ahora, si queremos utilizar el método original de la clase padre dentro del método sobrescrito en la clase hija  <code>super()</code>, lo hacemos de la siguiente manera:</p>
-<blockquote>
-<p>class ClaseHija extends ClasePadre {</p>
-<pre><code>// Sobreescribimos el metodo1 de la ClasePadre
-@Override
-public String metodo1() {
-    String original = super.metodo1();
-    return original + " pero modificado por ClaseHija";
-} }
+<pre><code> class ClaseHija extends ClasePadre {
+     
+     // Sobreescribimos el metodo1 de la ClasePadre
+     @Override
+     public String metodo1() {
+         String original = super.metodo1();
+         return original + " pero modificado por ClaseHija";
+     } }
 </code></pre>
-</blockquote>
 <ol start="4">
 <li><strong>Polimorfismo</strong></li>
 </ol>
 <ul>
-<li>Definición y utilidad.</li>
+<li><strong>Definición y utilidad.</strong><br>
+El polimorfismo es la capacidad de una entidad (como una variable o función) de tomar varias formas (como hemos visto antes cuando hablabamos de la sobreescritura y la sobrecarga de métodos). Más concretamente, se refiere a la capacidad de diferentes clases de ser tratadas como instancias de la misma clase, principalmente a través de la herencia. El término “polimorfismo” proviene del griego y significa “muchas formas”.</li>
+</ul>
+<p>El polimorfismo es una herramienta poderosa y fundamental en POO por las siguientes razones:</p>
+<ol>
+<li>
+<p><strong>Flexibilidad y Reusabilidad</strong>: Permite que el código se escriba de manera más genérica y reutilizable. Por ejemplo, puedes tener una función que procese objetos de una clase padre y, gracias al polimorfismo, esta función puede procesar cualquier objeto de las clases derivadas sin necesidad de reescribir o adaptar la función.</p>
+</li>
+<li>
+<p><strong>Extensibilidad</strong>: El polimorfismo facilita la adición de nuevas clases derivadas sin modificar el código existente. Imagina que tienes un sistema que dibuja diferentes formas geométricas. Si luego deseas agregar una nueva forma, simplemente creas una nueva clase para esa forma y, gracias al polimorfismo, el sistema podrá dibujarla sin cambios adicionales.</p>
+</li>
+<li>
+<p><strong>Encapsulación de Comportamiento</strong>: Cada clase derivada puede tener su propia implementación de un método (sobrescritura), permitiendo que el objeto se comporte de manera adecuada según su tipo real, aunque sea tratado como un objeto de la clase padre.</p>
+</li>
+<li>
+<p><strong>Desacoplamiento</strong>: Reduce las dependencias entre componentes del software, ya que permite que las operaciones se realicen basándose en contratos (como interfaces o clases base) en lugar de implementaciones específicas.</p>
+</li>
+<li>
+<p><strong>Claridad y Organización del Código</strong>: Facilita la lectura y el mantenimiento del código, ya que los desarrolladores pueden esperar comportamientos consistentes entre objetos relacionados, incluso si esos objetos pertenecen a diferentes clases derivadas.</p>
+</li>
+</ol>
+<ul>
 <li>Polimorfismo de sobrecarga y polimorfismo de sobreescritura (o dinámico).</li>
 </ul>
-<ol start="5">
+<h4 id="polimorfismo-de-sobrecarga-overloading">Polimorfismo de Sobrecarga (Overloading)</h4>
+<p><strong>Definición</strong>: Se refiere a la capacidad de una función o método de ser “sobrecargado” con múltiples versiones, cada una aceptando diferentes números o tipos de argumentos.</p>
+<p><strong>Características</strong>:</p>
+<ul>
+<li>Una misma función o método se define múltiples veces con diferentes listas de parámetros.</li>
+<li>La decisión sobre qué versión del método llamar se toma en tiempo de compilación.</li>
+</ul>
+<p><strong>Ejemplo</strong>:</p>
+<pre><code>javaCopy code
+
+`public int sumar(int a, int b) {
+    return a + b;
+}
+
+public double sumar(double a, double b) {
+    return a + b;
+}` 
+</code></pre>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Incrementa la legibilidad al permitir que diferentes funciones o métodos compartan un mismo nombre.</li>
+<li>Facilita la implementación de funciones o métodos que realizan tareas similares pero con diferentes tipos o números de argumentos.</li>
+</ul>
+<p><strong>Inconvenientes</strong>:</p>
+<ul>
+<li>Puede aumentar la complejidad si se abusa de la sobrecarga con muchas versiones del mismo método.</li>
+</ul>
+<hr>
+<h4 id="polimorfismo-de-sobreescritura-o-dinámico-overriding">Polimorfismo de Sobreescritura (o Dinámico, Overriding)</h4>
+<p><strong>Definición</strong>: Se refiere a la capacidad de una clase derivada para proporcionar una implementación específica de un método que ya está definido en su clase base o interfaz.</p>
+<p><strong>Características</strong>:</p>
+<ul>
+<li>La firma del método en la clase derivada debe ser idéntica a la de la clase base.</li>
+<li>La decisión sobre qué versión del método llamar se toma en tiempo de ejecución basándose en el tipo real del objeto.</li>
+<li>En muchos lenguajes, como Java, la anotación <code>@Override</code> se utiliza para indicar que un método está siendo sobreescrito.</li>
+</ul>
+<p><strong>Ejemplo</strong>:</p>
+<pre><code>javaCopy code
+
+`class Animal {
+    void sonido() {
+        System.out.println("El animal hace un sonido");
+    }
+}
+
+class Perro extends Animal {
+    @Override
+    void sonido() {
+        System.out.println("El perro ladra");
+    }
+}` 
+</code></pre>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Facilita la extensibilidad al permitir que clases derivadas modifiquen o extiendan comportamientos definidos en clases base.</li>
+<li>Refuerza la abstracción al permitir que objetos de diferentes clases se utilicen de manera uniforme, confiando en que cada objeto se comportará de manera adecuada según su tipo real.</li>
+</ul>
+<p><strong>Inconvenientes</strong>:</p>
+<ul>
+<li>Si no se utiliza adecuadamente, puede llevar a comportamientos no deseados en la clase derivada.</li>
+</ul>
+<ol start="7">
 <li><strong>Abstracción</strong></li>
 </ol>
 <ul>
@@ -175,13 +254,6 @@ public String metodo1() {
 <li>“Design Patterns: Elements of Reusable Object-Oriented Software” de Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides: Es un libro clásico sobre patrones de diseño en POO.</li>
 </ul>
 <ol start="2">
-<li><strong>Sitios web y tutoriales</strong>:</li>
-</ol>
-<ul>
-<li><strong>Java Brains (YouTube)</strong>: Koushik Kothagal ofrece tutoriales sobre Java que cubren en profundidad los conceptos de POO.</li>
-<li><strong>Mozilla Developer Network (MDN)</strong>: Si estás interesado en JavaScript, tienen una sección dedicada a la “Programación orientada a objetos en JavaScript”.</li>
-</ul>
-<ol start="3">
 <li><strong>Ejercicios y práctica</strong>:</li>
 </ol>
 <ul>
