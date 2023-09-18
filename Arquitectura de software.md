@@ -141,6 +141,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Requiere un seguimiento, monitoreo y herramientas de despliegue más sofisticadas.
 -   La consistencia de datos puede ser un desafío.
 
+
  **Arquitectura orientada a servicios (SOA):**
 
 **Características**:
@@ -159,9 +160,8 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Mayor latencia debido a la comunicación entre servicios.
 -   Puede volverse complejo a medida que crece el número de servicios.
 
-<
 
-- **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del software. Por ejemplo, dos aplicaciones: ventas e inventario, interactuan ante la petición de compra para cambiar el estado de un producto de _"A la venta"_ a _"Vendido"_
+ **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del software. Por ejemplo, dos aplicaciones: ventas e inventario, interactuan ante la petición de compra para cambiar el estado de un producto de _"A la venta"_ a _"Vendido"_
 
 **Características**:
 
@@ -213,7 +213,7 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 
 
-**MVVM (Model-View-ViewModel)**:
+### **MVVM (Model-View-ViewModel)**:
  
 **Características**:
 
@@ -232,10 +232,29 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 -   Puede ser más complejo que MVC para aplicaciones sencillas.
 -   La curva de aprendizaje puede ser más pronunciada, especialmente para aquellos que no están familiarizados con el enlace de datos.
+
+
+### **N-capas**:
+
+**Características**:
+
+-   Divide una aplicación en "capas" lógicas separadas, con cada capa teniendo una responsabilidad específica. Las capas comunes incluyen: Presentación, Lógica de Negocio, Acceso a Datos, etc.
+-   Las capas interactúan entre sí, pero cada una debe ser independiente en términos de operaciones y responsabilidades.
+
+**Ventajas**:
+
+-   Separación de responsabilidades, facilitando la mantenibilidad y escalabilidad.
+-   Fomenta la reusabilidad del código. Por ejemplo, la capa de acceso a datos podría usarse en múltiples sistemas si se diseña adecuadamente.
+-   Facilita las pruebas ya que cada capa puede probarse de forma independiente.
+
+**Inconvenientes**:
+
+-   Si no se diseña adecuadamente, puede resultar en una alta dependencia entre las capas, lo que va en contra del propósito principal del patrón.
+-   La comunicación entre capas puede introducir latencia si no se gestiona correctamente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MDQwMDI4LC0xNjg5ODM1ODk1LC00Mz
-c5MjA3OSwtMjAyMDg0NjUxOCwxMTA4NzUzNTk5LC01ODY2MDky
-OTYsLTE4NDEyODUxMTQsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC
-01NzI2MjAyNDEsNzQ4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYx
-MTExOTQ1XX0=
+eyJoaXN0b3J5IjpbMTM4NDUwNDY0NywtMTY4OTgzNTg5NSwtND
+M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
+Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
+wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
+MTExMTk0NV19
 -->
