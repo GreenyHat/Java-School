@@ -1,6 +1,6 @@
 # Índice:
 
-1.  **Introducción a la Arquitectura de Software**
+1.  **Introducción a la Arquitectura de Software (Acceso a datos)**
 
 -   Definición y propósito
 -   Rol del arquitecto de software
@@ -286,9 +286,9 @@ Las vistas de arquitectura proporcionan una forma estructurada de representar y 
 
 ###   Lenguajes de descripción de arquitectura (ADLs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgxOTg2MTYsMTgwOTYyMjg1MiwxMz
-g0NTA0NjQ3LC0xNjg5ODM1ODk1LC00Mzc5MjA3OSwtMjAyMDg0
-NjUxOCwxMTA4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUxMT
-QsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNzQ4
-NTkyODY5LC0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbNDQ1MTExNzU5LDE4MDk2MjI4NTIsMTM4ND
+UwNDY0NywtMTY4OTgzNTg5NSwtNDM3OTIwNzksLTIwMjA4NDY1
+MTgsMTEwODc1MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1MTE0LC
+00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5
+Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
 -->
