@@ -178,7 +178,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
-- **MVC (Modelo vista controlador):**
+- # **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
@@ -208,10 +208,31 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 -   Puede volverse complejo si no se gestiona adecuadamente.
 -   Para aplicaciones pequeñas, puede parecer una sobrecarga.
+
+
+- ### **MVVM (Model-View-ViewModel)**:
+
+**Características**:
+
+-   Específicamente diseñado para aplicaciones con interfaces ricas, como las desarrolladas con WPF, Xamarin o herramientas frontend como Angular:
+    -   **Model**: Representa datos y lógica de negocio.
+    -   **View**: Representa la interfaz de usuario.
+    -   **ViewModel**: Actúa como un enlace entre el Model y la View, y tiene la responsabilidad de transformar los datos del modelo en una forma que pueda ser mostrada fácilmente en la vista.
+
+**Ventajas**:
+
+-   Permite un enlace de datos bidireccional entre View y ViewModel, lo que facilita la actualización automática de la interfaz de usuario.
+-   Promueve una separación de la lógica de presentación y lógica de negocio.
+-   Facilita las pruebas unitarias, especialmente en la lógica de presentación.
+
+**Inconvenientes**:
+
+-   Puede ser más complejo que MVC para aplicaciones sencillas.
+-   La curva de aprendizaje puede ser más pronunciada, especialmente para aquellos que no están familiarizados con el enlace de datos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODA2MDM4OSwtMTY4OTgzNTg5NSwtND
-M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
-Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
-wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
-MTExMTk0NV19
+eyJoaXN0b3J5IjpbLTE1MzA4NDQ4MzIsLTE2ODk4MzU4OTUsLT
+QzNzkyMDc5LC0yMDIwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYw
+OTI5NiwtMTg0MTI4NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMj
+EsLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1
+NjExMTE5NDVdfQ==
 -->
