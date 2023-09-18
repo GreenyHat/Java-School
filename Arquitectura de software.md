@@ -180,7 +180,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
 
-  **MVC (Modelo vista controlador):**
+  ### **MVC (Modelo vista controlador):**
 ![enter image description here](https://developer.mozilla.org/es/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
@@ -252,9 +252,9 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 -   Si no se diseña adecuadamente, puede resultar en una alta dependencia entre las capas, lo que va en contra del propósito principal del patrón.
 -   La comunicación entre capas puede introducir latencia si no se gestiona correctamente.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDUwNDY0NywtMTY4OTgzNTg5NSwtND
-M3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5
-Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMS
-wtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2
-MTExMTk0NV19
+eyJoaXN0b3J5IjpbLTE1Njk4MTkzMjQsMTM4NDUwNDY0NywtMT
+Y4OTgzNTg5NSwtNDM3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1
+MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OT
+IsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0
+Mzg3MTc0MywtMTU2MTExMTk0NV19
 -->
