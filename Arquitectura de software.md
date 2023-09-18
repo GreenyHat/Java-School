@@ -102,6 +102,7 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 -   Difícil de adaptar a nuevas tecnologías debido a la fuerte interdependencia.
 
 - **Arquitectura basada en capas (Layered Architecture):** 
+
 **Características**:
 
 -   Divide la aplicación en capas lógicas, como presentación, lógica de negocio y acceso a datos.
@@ -120,6 +121,28 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 
 
 - **Microservicios:** Admite un mayor numero de clases y módulos por lo que se integra mejor con un mayor equipo ya que no todas las funcionalidades depende de grandes paquetes de código, a diferencia del monolitico donde para comprender el código tienes que tener un gran conocimiento de la totalidad.
+
+**Características**:
+
+-   Divide la aplicación en servicios más pequeños e independientes.
+-   Cada servicio es independiente y puede ser desarrollado, desplegado y escalado individualmente.
+
+**Ventajas**:
+
+-   Flexibilidad en la elección de tecnologías.
+-   Escalabilidad y resilencia mejoradas.
+-   Rápida adaptación a cambios y nuevas funcionalidades.
+
+**Inconvenientes**:
+
+-   Más complejidad en la gestión y comunicación entre servicios.
+-   Requiere un seguimiento, monitoreo y herramientas de despliegue más sofisticadas.
+-   La consistencia de datos puede ser un desafío.
+
+
+- **Arquitectura orientada a servicios (SOA):**
+
+
 - **Event-Driven:** Es una arquitectura basada en eventos, o cambios de estado. Cabe distinguir aquí dos conceptos importantes que serían:  La notificación del evento (o mensaje, tipicamente asíncrono) que sería el trigger del evento, y el evento en sí mismo que sería el cambio de estado en una parte del software. Por ejemplo, dos aplicaciones: ventas e inventario, interactuan ante la petición de compra para cambiar el estado de un producto de _"A la venta"_ a _"Vendido"_
 	
 ### Patrones comunes (MVC, MVVM, N-capas, etc.)
@@ -139,7 +162,7 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYwMDI1NTMsLTE2ODk4MzU4OTUsLT
+eyJoaXN0b3J5IjpbLTE5MzAxMjg2MzIsLTE2ODk4MzU4OTUsLT
 QzNzkyMDc5LC0yMDIwODQ2NTE4LDExMDg3NTM1OTksLTU4NjYw
 OTI5NiwtMTg0MTI4NTExNCwtNDk4NjQwNzkyLC03MzQ2MDQzMj
 EsLTU3MjYyMDI0MSw3NDg1OTI4NjksLTEyNDM4NzE3NDMsLTE1
