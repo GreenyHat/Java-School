@@ -94,10 +94,10 @@ Los diferentes estilos arquitectonicos responden a diferentes requerimientos. Po
 
 Es un patron de arquitectura que debe su nombre a los elementos que componen su estructura principal: **MVC**, parte de las iniciales de Modelo-Vista-Controlador.
 
-- Capa **M**odelo: encontramos los datos de dominio, los cuales almacenarán la inforación. Alli se establece la logica de negocio d
+- Capa **M**odelo: encontramos los datos de dominio, los cuales almacenarán la inforación. Alli se establece la logica de negocio de la app. Si la app consume servicios prestados por otros sistemas (sistema distribuido) tambien encontrará en esta  capa los **DTO (data transfer objects), tambien llamadas clases de transferencia de datos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3ODQ1NTY2LC00Mzc5MjA3OSwtMjAyMD
-g0NjUxOCwxMTA4NzUzNTk5LC01ODY2MDkyOTYsLTE4NDEyODUx
-MTQsLTQ5ODY0MDc5MiwtNzM0NjA0MzIxLC01NzI2MjAyNDEsNz
-Q4NTkyODY5LC0xMjQzODcxNzQzLC0xNTYxMTExOTQ1XX0=
+eyJoaXN0b3J5IjpbLTg5MjI3OTU0OCwtNDM3OTIwNzksLTIwMj
+A4NDY1MTgsMTEwODc1MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1
+MTE0LC00OTg2NDA3OTIsLTczNDYwNDMyMSwtNTcyNjIwMjQxLD
+c0ODU5Mjg2OSwtMTI0Mzg3MTc0MywtMTU2MTExMTk0NV19
 -->
