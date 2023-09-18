@@ -251,8 +251,13 @@ Es un patron de arquitectura que debe su nombre a los elementos que componen su 
 
 -   Si no se diseña adecuadamente, puede resultar en una alta dependencia entre las capas, lo que va en contra del propósito principal del patrón.
 -   La comunicación entre capas puede introducir latencia si no se gestiona correctamente.
+
+## 3.  **Documentación de Arquitectura**
+
+-   Vistas de arquitectura
+-   Lenguajes de descripción de arquitectura (ADLs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk4MTkzMjQsMTM4NDUwNDY0NywtMT
+eyJoaXN0b3J5IjpbLTEwNTgzOTIwMzAsMTM4NDUwNDY0NywtMT
 Y4OTgzNTg5NSwtNDM3OTIwNzksLTIwMjA4NDY1MTgsMTEwODc1
 MzU5OSwtNTg2NjA5Mjk2LC0xODQxMjg1MTE0LC00OTg2NDA3OT
 IsLTczNDYwNDMyMSwtNTcyNjIwMjQxLDc0ODU5Mjg2OSwtMTI0
