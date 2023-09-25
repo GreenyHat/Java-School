@@ -11,12 +11,13 @@ public class GetFactorial {
 
         System.out.print("Escribe un numero para factorizar: ");
         num = sc.nextInt();
+        sc.close();
 
         for (int i = 1; i < num; resultado *= i) {
             i++;
-            
+
         }
-        
+
         System.out.println("Resultado: " + resultado);
     }
 }
