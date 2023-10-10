@@ -4,7 +4,7 @@ public class Alumnos {
     private String nombreAlumno;
     private Colegio nombreColegio;
     private double notaMedia;
-    private int numAlumno = 1;
+    // private int numAlumno = 1;
     // private int nAlumno;//Por que??
 
     public Alumnos(Colegio nombreColegio, String nombreAlumno, double notaMedia) {
@@ -12,7 +12,7 @@ public class Alumnos {
         this.nombreColegio = nombreColegio;
         this.notaMedia = notaMedia;
         // nAlumno=numAlumno;//??????
-        numAlumno++;
+        // numAlumno++;
 
     }
 
