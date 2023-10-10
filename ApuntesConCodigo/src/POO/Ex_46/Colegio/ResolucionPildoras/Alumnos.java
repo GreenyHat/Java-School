@@ -5,13 +5,13 @@ public class Alumnos {
     private Colegio nombreColegio;
     private double notaMedia;
     private int numAlumno = 1;
-    private int nAlumno;
+    // private int nAlumno;//Por que??
 
     public Alumnos(Colegio nombreColegio, String nombreAlumno, double notaMedia) {
         this.nombreAlumno = nombreAlumno;
         this.nombreColegio = nombreColegio;
         this.notaMedia = notaMedia;
-        nAlumno = numAlumno;
+        // nAlumno=numAlumno;//??????
         numAlumno++;
 
     }
@@ -24,12 +24,12 @@ public class Alumnos {
         return nombreAlumno;
     }
 
-    public Colegio getNombreColegioAlumno() {
+    public String getNombreColegioAlumno() {
         return this.nombreColegio.getNombreColegio();
     }
 
     public String toString() {
         return "Nombre alumno: " + nombreAlumno + "\nColegio: "
-                + nombreColegio + "\nNota Media: " + notaMedia;
+                + nombreColegio.getNombreColegio() + "\nNota Media: " + notaMedia;
     }
 }
