@@ -1,21 +1,3 @@
-## Home
-- [Library](#library)
-- [Paths](#paths)
-- [Blog](#blog)
-- [About](#about)
-
-## Articles in this Series
-- [Introduction](#introduction)
-- [Part 1: Scene Builder](#part-1-scene-builder)
-- [Part 2: Model and TableView](#part-2-model-and-tableview)
-- [Part 3: User Interaction](#part-3-user-interaction)
-- [Part 4: CSS Styling](#part-4-css-styling)
-- [Part 5: Data Persistence with XML](#part-5-data-persistence-with-xml)
-- [Part 6: Statistical Graphics](#part-6-statistical-graphics)
-- [Part 7: Deployment](#part-7-deployment)
-
-
-
 ## JavaFX Tutorial (Spanish)
 ### Part 1: Scene Builder
 
