@@ -3,7 +3,7 @@ package POO.FlujosDeDatos;
 import java.io.*;
 
 public class MakigasIO_OutputStream {
-    
+
     /*
      * Conceptos generales de la informatica:
      * StdOut (salida estandar) --> en Java System.out
@@ -14,7 +14,7 @@ public class MakigasIO_OutputStream {
      * la memoria, un servidor, un dispositivo de almacenamiento...
      * 
      * I/O en Java:
-     * Se organiza alredeodr de una estructura de datos general, denominado Stream,
+     * Se organiza alrededor de una estructura de datos general, denominado Stream,
      * los cuales conectan nuestro programa con el mundo exterior o viceversa
      * java.io
      * OutputStream: File para escribir en archivos, outputstreams envolventes
@@ -29,11 +29,10 @@ public class MakigasIO_OutputStream {
         try {
             OutputStream fos = new FileOutputStream("ApuntesConCodigo\\src\\Testing\\testingFlujos\\test3.txt");
             // Los metodos mas importantes seran close() para cerrar el flujo, flush() para
-            // en cualquier momento
-            // decirle a Java que se asegure de que todos los bytes se han enviado
-            // correctamente y write() para escribir de distintas formas
+            // en cualquier momento decirle a Java que se asegure de que todos los bytes
+            // se han enviado correctamente y write() para escribir de distintas formas
             try {
-                for (var i = 0x30; i < 0x39; i++) {// del 0 al 9 en hexadecimal
+                for (int i = 0x30; i <= 0x39; i++) {// del 0 al 9 en hexadecimal
                     fos.write(i);
                     /*
                      * Explicacion de los 24 bits ignorados:
@@ -69,11 +68,9 @@ public class MakigasIO_OutputStream {
                  */
                 fos.close();
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
