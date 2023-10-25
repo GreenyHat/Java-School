@@ -14,6 +14,7 @@ public class ProcessBuilderExample {
         processBuilder.command("ping", "www.google.com");
         // Comando para listar archivos en Unix/Linux
         processBuilder.command("cmd", "/c", "dir");// Siempre se ejecutara el ultimo comando y se ignora el primero
+
         /*
          * Apuntes sobre los problemas que tuve con processBuilder.command("dir");
          * dir no es un programa ejecutable independiente, sino más bien un comando
@@ -36,8 +37,8 @@ public class ProcessBuilderExample {
             }
 
             // Espera a que finalice el proceso
-            int retorno = process.waitFor();//Segun la clase
-            System.out.println("Esto es el waitFor?? " + retorno);//Por que devuvle 0?? ///////////////
+            int retorno = process.waitFor();// Segun la clase
+            System.out.println("Esto es el waitFor?? " + retorno);// Por que devuvle 0?? ///////////////
             System.out.println("Proceso finalizado");
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
