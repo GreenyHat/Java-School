@@ -11,7 +11,7 @@ public class RuntimeExecExample {
             // Comando y argumentos
             String[] cmdarray = { "ping", "www.google.com" };
             // Variables de entorno (por ejemplo, podrías agregar o modificar PATH)
-            String[] envp = { "MY_ENV_VARIABLE=value" };
+            String[] envp = { "MY_ENV_VARIABLE=valueX" };
             // Directorio desde el cual se ejecutará el comando
             File dir = new File("C:/");
 
