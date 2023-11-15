@@ -1,0 +1,40 @@
+Intentaré explicar de manera coloquial las funciones de PATH, variables de entorno, variables de usuario y variables de sistema. 
+En parte para tenerlos yo tambien a la vista y por si a alguien le pudiese servir.
+
+
+
+PATH:
+
+Función: El PATH es como una lista de direcciones en tu computadora. 
+Cuando le pides a la computadora que ejecute un programa escribiendo su nombre en la línea de comandos, el sistema busca ese programa en todas las direcciones que están enlistadas en el PATH.
+
+Ejemplo coloquial: Imagina el PATH como un mapa que le dice a tu computadora dónde buscar cuando le pides que ejecute algo.
+
+
+
+Variables de Entorno:
+
+Función: Las variables de entorno son como notas que le dejas a tu sistema operativo. Son pedacitos de información que los programas pueden usar para tomar decisiones o 
+personalizar su comportamiento.
+
+
+
+Variables de Usuario: Son notas específicas para ti. Solo afectan tu sesión de usuario.
+
+
+
+Variables de Sistema: Son como notas que todos en la computadora pueden leer. Afectan a todos los usuarios y al sistema en general.
+
+
+
+Ejemplo coloquial: Puedes dejar una nota en la cocina para recordar a todos que hoy es día de limpieza (Variables de Sistema). También puedes dejar una nota en tu nevera para recordarte a ti mismo comprar leche (Variables de Usuario).
+
+
+
+Un ejemplo de variable de entorno puede ser JAVA_HOME:
+
+Función: Es una variable de entorno que le dice a tu sistema dónde encontrar Java. 
+Cuando programas o herramientas necesitan Java, miran el JAVA_HOME para saber dónde está instalado.
+
+Ejemplo coloquial: Es como decirle a tus amigos: "Si necesitas algo de mi habitación, está en el armario grande" 
+(JAVA_HOME le dice a otros programas dónde está Java).

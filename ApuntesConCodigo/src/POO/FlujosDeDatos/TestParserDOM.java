@@ -12,7 +12,6 @@ public class TestParserDOM {
     //Parser de timpo DOM, la estructura cargara en memoria y tendremos el fichero completo
     
     public class DomExample {
-    
         //para poder ejecutarlo
         public static void main(String[] args) {
             try {
@@ -28,6 +27,7 @@ public class TestParserDOM {
                 e.printStackTrace();
             }
         }
+    
     }
 
 
