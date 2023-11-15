@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class MakigasIO_InputStream {
     public static void main(String[] args) {
         try {
-            InputStream fis = new FileInputStream("ApuntesConCodigo\\src\\Testing\\testingFlujos\\test3.txt");
+            InputStream fis = new FileInputStream("src/Testing/testingFlujos/test3.txt");
             int val;// Metodo 1
             byte[] arr = new byte[4096];// Metodo 2
             // "val" podra ser un valor comprendido entre 0 y 255 si ha podido leer algo o
@@ -27,9 +27,10 @@ public class MakigasIO_InputStream {
 
                 System.out.println(val);
                 int cuantos = fis.read(arr, 200, 5);
-                int cuantosSegundaLectura = fis.read(arr, 250, 15);
                 System.out.println(cuantos);
-                System.out.println(cuantosSegundaLectura);
+                cuantos = fis.read(arr, 200, 5);// segunda lectura del resto de valores del array (realmente leera 4,
+                                                // sobra uno en el len)
+                System.out.println(cuantos);
                 /*
                  * Es interesante depurar aqui para ver como funciona el offset (off) y el
                  * length (len). Aquile estamos pasando a cuantos el valor de los bytes que hay

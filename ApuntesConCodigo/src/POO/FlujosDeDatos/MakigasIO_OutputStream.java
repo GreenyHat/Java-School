@@ -27,7 +27,7 @@ public class MakigasIO_OutputStream {
      */
     public static void main(String[] args) {
         try {
-            OutputStream fos = new FileOutputStream("ApuntesConCodigo\\src\\Testing\\testingFlujos\\test3.txt");
+            OutputStream fos = new FileOutputStream("src/Testing/testingFlujos/test3.txt");
             // Los metodos mas importantes seran close() para cerrar el flujo, flush() para
             // en cualquier momento decirle a Java que se asegure de que todos los bytes
             // se han enviado correctamente y write() para escribir de distintas formas
@@ -67,6 +67,7 @@ public class MakigasIO_OutputStream {
                  * close()
                  */
                 fos.close();
+                System.out.println("Operacion realizada");
             } catch (IOException e) {
                 e.printStackTrace();
             }
