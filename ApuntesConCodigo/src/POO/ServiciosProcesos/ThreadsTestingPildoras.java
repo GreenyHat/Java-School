@@ -8,7 +8,7 @@ import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class ThreadsTesting {
+public class ThreadsTestingPildoras {
 
     public static void main(String[] args) {
 
@@ -20,6 +20,31 @@ public class ThreadsTesting {
 
     }
 
+}
+
+class PelotaHilos implements Runnable{
+    public PelotaHilos(Pelota unaPelota, Component unComponente){
+        pelota = unaPelota;
+        componente = unComponente;
+    }
+    public void run(){
+        for (int i = 1; i <= 3000; i++) {
+
+            pelota.mueve_pelota(componente.getBounds());
+
+            componente.paint(componente.getGraphics());
+
+            try {
+                Thread.sleep(2); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
+                                 // pero no aceptara mas instrucciones
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
+    } 
+    private Pelota pelota;
+    private Component componente;
 }
 
 // Movimiento de la
@@ -175,23 +200,24 @@ class MarcoRebote extends JFrame {
 
         lamina.add(pelota);
 
-        for (int i = 1; i <= 3000; i++) {
+        Runnable r= new PelotaHilos(pelota, rootPane);
 
-            pelota.mueve_pelota(lamina.getBounds());
+        Thread th = new Thread(r); 
 
-            lamina.paint(lamina.getGraphics());
-
-            try {
-                Thread.sleep(4); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
-                                 // pero no aceptara mas instrucciones
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-        }
+        th.start();
+        
 
     }
 
     private LaminaPelota lamina;
 
 }
+
+/*
+ * Crear hilos de ejecucion:
+ * 1. Crear clase que implemente la interfaz Runnable(metodo run())
+ * 2. Escribir codigo de la tarea dentro del metodo run
+ * 3. Instanciar la clase creada y almacenar la instancia en variable de tipo Runnable
+ * 4. Crear instancia de la clase Thread pasando como parametro al constructor de Thread el objeto Runnable anterior
+ * 5. Poner en marcha el hilo de ejecucion con el metodo start() de la clase Thread
+ */
