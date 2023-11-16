@@ -22,12 +22,12 @@ public class ThreadsTestingPildoras {
 
 }
 
-class PelotaHilos implements Runnable{
+class PelotaHilos implements Runnable{ //PASO 1
     public PelotaHilos(Pelota unaPelota, Component unComponente){
         pelota = unaPelota;
         componente = unComponente;
     }
-    public void run(){
+    public void run(){ //PASO 2
         for (int i = 1; i <= 3000; i++) {
 
             pelota.mueve_pelota(componente.getBounds());
@@ -200,11 +200,11 @@ class MarcoRebote extends JFrame {
 
         lamina.add(pelota);
 
-        Runnable r= new PelotaHilos(pelota, rootPane);
+        Runnable r= new PelotaHilos(pelota, rootPane); //PASO 3
 
-        Thread th = new Thread(r); 
+        Thread th = new Thread(r); //PASO 4
 
-        th.start();
+        th.start(); //PASO 5
         
 
     }
