@@ -35,7 +35,7 @@ class PelotaHilos implements Runnable{ //PASO 1
             componente.paint(componente.getGraphics());
 
             try {
-                Thread.sleep(2); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
+                Thread.sleep(4); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
                                  // pero no aceptara mas instrucciones
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -191,8 +191,6 @@ class MarcoRebote extends JFrame {
         boton.addActionListener(oyente);
 
     }
-
-    // Añade pelota y la bota 1000 veces
 
     public void comienza_el_juego() {
 
