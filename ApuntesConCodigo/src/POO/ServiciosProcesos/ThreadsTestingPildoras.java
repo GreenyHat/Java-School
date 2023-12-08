@@ -3,6 +3,7 @@ package POO.ServiciosProcesos;
 import java.awt.geom.*;
 
 import javax.swing.*;
+import javax.swing.Timer;
 
 import java.util.*;
 import java.awt.*;
@@ -27,10 +28,17 @@ class PelotaHilos implements Runnable{ //PASO 1
         pelota = unaPelota;
         componente = unComponente;
     }
+    @Override//???
     public void run(){ //PASO 2
         for (int i = 1; i <= 3000; i++) {
 
             pelota.mueve_pelota(componente.getBounds());
+
+             SwingUtilities.invokeLater(() -> {
+                componente.repaint();
+                /////////////////////////////////////////////////
+                /////////////////////CHATGPT??//////////////////
+            });
 
             componente.paint(componente.getGraphics());
 
@@ -198,14 +206,30 @@ class MarcoRebote extends JFrame {
 
         lamina.add(pelota);
 
-        Runnable r= new PelotaHilos(pelota, rootPane); //PASO 3
+        //Desde aqui
+        PelotaHilos pelotaHilos = new PelotaHilos(pelota, rootPane);
+        Thread th = new Thread(pelotaHilos);
 
-        Thread th = new Thread(r); //PASO 4
+        Timer timer = new Timer(4, e -> {
+            pelota.mueve_pelota(rootPane.getBounds());
+            lamina.repaint();
+        });
+        timer.start();
 
-        th.start(); //PASO 5
+        th.start();
+    }//hasta aqui chatgpt, y de hecho ha conseguido una mejora visual
+    //por que?????????????
+
+    
+
+    //     Runnable r= new PelotaHilos(pelota, rootPane); //PASO 3
+
+    //     Thread th = new Thread(r); //PASO 4
+
+    //     th.start(); //PASO 5
         
 
-    }
+    // }
 
     private LaminaPelota lamina;
 
