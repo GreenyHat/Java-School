@@ -35,7 +35,7 @@ public class TestParserDOM {
     //Crea un constructor 
 private DocumentBuilderFactory factory;
 private DocumentBuilder builder;
-private Document doc;
+private Document doc; 
 
 public TestParserDOM() throws ParserConfigurationException, SAXException, IOException {
     factory = DocumentBuilderFactory.newInstance();

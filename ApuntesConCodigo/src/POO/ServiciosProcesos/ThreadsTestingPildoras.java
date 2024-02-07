@@ -3,6 +3,7 @@ package POO.ServiciosProcesos;
 import java.awt.geom.*;
 
 import javax.swing.*;
+import javax.swing.Timer;
 
 import java.util.*;
 import java.awt.*;
@@ -22,20 +23,27 @@ public class ThreadsTestingPildoras {
 
 }
 
-class PelotaHilos implements Runnable{
+class PelotaHilos implements Runnable{ //PASO 1
     public PelotaHilos(Pelota unaPelota, Component unComponente){
         pelota = unaPelota;
         componente = unComponente;
     }
-    public void run(){
+    @Override//???
+    public void run(){ //PASO 2
         for (int i = 1; i <= 3000; i++) {
 
             pelota.mueve_pelota(componente.getBounds());
 
+             SwingUtilities.invokeLater(() -> {
+                componente.repaint();
+                /////////////////////////////////////////////////
+                /////////////////////CHATGPT??//////////////////
+            });
+
             componente.paint(componente.getGraphics());
 
             try {
-                Thread.sleep(2); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
+                Thread.sleep(4); // Este metodo estatico hace que la ejecucion del hilo se pause 4 milisegundos,
                                  // pero no aceptara mas instrucciones
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -192,22 +200,36 @@ class MarcoRebote extends JFrame {
 
     }
 
-    // Añade pelota y la bota 1000 veces
-
     public void comienza_el_juego() {
 
         Pelota pelota = new Pelota();
 
         lamina.add(pelota);
 
-        Runnable r= new PelotaHilos(pelota, rootPane);
+        //Desde aqui
+        PelotaHilos pelotaHilos = new PelotaHilos(pelota, rootPane);
+        Thread th = new Thread(pelotaHilos);
 
-        Thread th = new Thread(r); 
+        Timer timer = new Timer(4, e -> {
+            pelota.mueve_pelota(rootPane.getBounds());
+            lamina.repaint();
+        });
+        timer.start();
 
         th.start();
+    }//hasta aqui chatgpt, y de hecho ha conseguido una mejora visual
+    //por que?????????????
+
+    
+
+    //     Runnable r= new PelotaHilos(pelota, rootPane); //PASO 3
+
+    //     Thread th = new Thread(r); //PASO 4
+
+    //     th.start(); //PASO 5
         
 
-    }
+    // }
 
     private LaminaPelota lamina;
 
